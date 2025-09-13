@@ -1,0 +1,38 @@
+{
+  "name": "astroguard-meteor-simulator",
+  "version": "1.0.0",
+  "description": "🌌 AstroGuard - Gelişmiş Asteroid Savunma ve Çarpma Simülasyon Sistemi (NASA Space Apps Challenge için geliştirildi)",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "build": "echo 'Static site - no build needed'",
+    "start": "python -m http.server 8080",
+    "preview": "python -m http.server 4173"
+  },
+  "keywords": [
+    "asteroid",
+    "meteor",
+    "simulation",
+    "planetary-defense",
+    "nasa",
+    "space",
+    "impact-assessment",
+    "education",
+    "visualization"
+  ],
+  "author": "AstroGuard Team - NASA Space Apps Challenge 2024",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/astroguard-meteor-simulator.git"
+  },
+  "homepage": "https://astroguard-meteor-simulator.vercel.app",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
